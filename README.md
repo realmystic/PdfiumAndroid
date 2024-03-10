@@ -19,9 +19,21 @@ It will be used with the forked [AndroidPdFViewer](https://github.com/lion1988de
 * Add support for mips64
 
 ## Installation
-Add to _build.gradle_:
+Add to the root _build.gradle_:
 
-`compile 'com.github.barteksc:pdfium-android:1.9.0'`
+```groovy
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Add to the app _build.gradle_:
+
+`implementation 'com.github.lion1988dev:PdfiumAndroid:1.9.1'`
 
 Library is available in jcenter and Maven Central repositories.
 
