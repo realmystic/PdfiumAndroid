@@ -1,11 +1,14 @@
-# Pdfium Android binding with Bitmap rendering
-Uses pdfium library [from AOSP](https://android.googlesource.com/platform/external/pdfium/)
+The purpose is to remove old support libraries so we no longer need to use jetifier.
 
-The demo app (for not modified lib) is [here](https://github.com/mshockwave/PdfiumAndroid-Demo-App)
+It will be used with the forked [AndroidPdFViewer](https://github.com/lion1988dev/AndroidPdfViewer)
 
-Forked for use with [AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer) project.
-
-API is highly compatible with original version, only additional methods were created.
+## What's new in 1.9.1
+* Update Gradle plugins and configurations
+* Update compile sdk to 34
+* Change minimum SDK to 23
+* Remove support-v4 library
+* Drop support for mips
+* Update pdfium libs and refactor to cmake
 
 ## What's new in 1.9.0?
 * Updated Pdfium library to 7.1.2_r36
