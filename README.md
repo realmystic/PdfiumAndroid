@@ -2,6 +2,11 @@ The purpose is to remove old support libraries so we no longer need to use jetif
 
 It will be used with the forked [AndroidPdFViewer](https://github.com/lion1988dev/AndroidPdfViewer)
 
+## What's new in 1.9.3
+* Update Gradle plugins and configurations
+* Change minimum SDK to 21
+* Update pdfium libs
+
 ## What's new in 1.9.1
 * Update Gradle plugins and configurations
 * Update compile sdk to 34
@@ -33,7 +38,7 @@ dependencyResolutionManagement {
 
 Add to the app _build.gradle_:
 
-`implementation 'com.github.lion1988dev:PdfiumAndroid:1.9.1'`
+`implementation 'com.github.lion1988dev:PdfiumAndroid:1.9.3'`
 
 Library is available in jcenter and Maven Central repositories.
 

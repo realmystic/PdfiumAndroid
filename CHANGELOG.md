@@ -1,3 +1,8 @@
+## 1.9.3 (2024-03-18)
+* Update Gradle plugins and configurations
+* Change minimum SDK to 21
+* Update pdfium libs
+
 ## 1.9.1 (2024-03-10)
 * Update Gradle plugins and configurations
 * Update compile sdk to 34
