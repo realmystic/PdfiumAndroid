@@ -23,7 +23,6 @@ public class PdfiumCore {
 
     static {
         try {
-            System.loadLibrary("pdfium");
             System.loadLibrary("pdfiumandroid");
         } catch (UnsatisfiedLinkError e) {
             Log.e(TAG, "Native libraries failed to load - " + e);
