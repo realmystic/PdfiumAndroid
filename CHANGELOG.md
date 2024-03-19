@@ -1,3 +1,6 @@
+## 1.9.4 (2024-03-19)
+* Fix issue for the newest Android devices with API 34+
+
 ## 1.9.3 (2024-03-18)
 * Update Gradle plugins and configurations
 * Change minimum SDK to 21
