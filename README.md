@@ -1,6 +1,6 @@
 The purpose is to remove old support libraries so we no longer need to use jetifier.
 
-It will be used with the forked [AndroidPdFViewer](https://github.com/lion1988dev/AndroidPdfViewer)
+It will be used with the forked [AndroidPdFViewer](https://github.com/realmystic/AndroidPdfViewer)
 
 ## What's new in 1.9.4
 * Fix issue for the newest Android devices with API 34+
@@ -41,7 +41,7 @@ dependencyResolutionManagement {
 
 Add to the app _build.gradle_:
 
-`implementation 'com.github.lion1988dev:PdfiumAndroid:1.9.4'`
+`implementation 'com.github.mystic:PdfiumAndroid:1.9.4'`
 
 Library is available in jcenter and Maven Central repositories.
 

@@ -13,7 +13,7 @@ ext {
     ]
 }
 
-group "com.github.lion1988dev"
+group "com.github.mystic"
 
 android {
     namespace "com.shockwave.pdfium"
@@ -84,7 +84,7 @@ dependencies {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.github.lion1988dev'
+            groupId = 'com.github.mystic'
             artifactId = 'PdfiumAndroid'
             version = "1.9.4"
 
