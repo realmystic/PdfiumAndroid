@@ -2,6 +2,11 @@ The purpose is to remove old support libraries so we no longer need to use jetif
 
 It will be used with the forked [AndroidPdFViewer](https://github.com/realmystic/AndroidPdfViewer)
 
+## What's new in 1.9.5
+* Add 16KB Page size support for Android 15+
+* Bump compile & target SDK to 36
+* Bump AGP to 8.9.1
+
 ## What's new in 1.9.4
 * Fix issue for the newest Android devices with API 34+
 
@@ -41,7 +46,7 @@ dependencyResolutionManagement {
 
 Add to the app _build.gradle_:
 
-`implementation 'com.github.mystic:PdfiumAndroid:1.9.4'`
+`implementation 'com.github.mystic:PdfiumAndroid:1.9.5'`
 
 Library is available in jcenter and Maven Central repositories.
 

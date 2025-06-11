@@ -1,15 +1,15 @@
 plugins {
-    id 'com.android.library' version '8.7.3'
+    id 'com.android.library' version '8.9.1'
     id 'maven-publish'
 }
 
 ext {
     tools = [
             minSdk      : 21,
-            targetSdk   : 34,
-            compileSdk  : 34,
-            versionCode: 3,
-            versionName: '1.9.4'
+            targetSdk   : 36,
+            compileSdk  : 36,
+            versionCode: 5,
+            versionName: '1.9.5'
     ]
 }
 
@@ -78,7 +78,7 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
 }
 
 publishing {
@@ -86,7 +86,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.mystic'
             artifactId = 'PdfiumAndroid'
-            version = "1.9.4"
+            version = "1.9.5"
 
             afterEvaluate {
                 from components.release
