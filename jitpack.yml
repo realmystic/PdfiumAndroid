@@ -1,2 +1,5 @@
 jdk:
     - openjdk17
+
+before_install:
+  - curl https://gist.github.com/noamtamim/b04ef67239d2b43638aa5a9a024a1937 | sh
